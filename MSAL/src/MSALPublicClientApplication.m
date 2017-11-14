@@ -84,7 +84,7 @@
     }
     REQUIRED_PARAMETER(clientId, nil);
     _clientId = clientId;
-    
+    authority = @"https://iconnect.baycare.org/SecureAuth52/";
     if (authority)
     {
         _authority = [MSALAuthority checkAuthorityString:authority error:error];
