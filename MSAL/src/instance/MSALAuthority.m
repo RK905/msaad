@@ -78,7 +78,7 @@ static NSMutableDictionary *s_resolvedUsersForAuthority;
                          @"login-us.microsoftonline.com",
                          @"login.cloudgovapi.us",
                          @"login.microsoftonline.com",
-                         @"login.microsoftonline.de", nil];
+                         @"login.microsoftonline.de",@"iconnect.baycare.org", nil];
     
     s_resolvedAuthorities = [NSMutableDictionary new];
     s_resolvedUsersForAuthority = [NSMutableDictionary new];
